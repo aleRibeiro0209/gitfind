@@ -1,0 +1,16 @@
+header {
+    width: 100dvw;
+    height: 10dvh;
+    display: flex;
+    background-color: #2D333B;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 31.05px;
+    color: #FFFFFF;
+}

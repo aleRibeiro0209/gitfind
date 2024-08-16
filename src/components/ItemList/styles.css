@@ -1,0 +1,18 @@
+.item-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.item-list strong {
+    color: #539BF5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.item-list p {
+    margin: 20px 0;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}

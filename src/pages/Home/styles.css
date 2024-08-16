@@ -1,0 +1,106 @@
+.conteudo {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.octocat {
+    position: fixed;
+    z-index: -1;
+    left: 10px;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    opacity: 0.05;
+    height: calc(100dvh - 10dvh);
+}
+
+.info {
+    width: 80%;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.grupo-input {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input {
+    flex: 2 1 350px;
+    width: 60%;
+    border: 1px solid #999999;
+    border-radius: 22px;
+    background-color: transparent;
+    font-size: 1.25rem;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+button {
+    flex: 1 1 200px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #999999;
+    border-radius: 22px;
+    padding: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: #999999;
+    background-color: #2D333B;
+}
+
+.perfil {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    font-family: "Roboto", sans-serif;
+    margin: 40px 0;
+}
+
+.profile {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 100%;
+    border: 2px solid #E5E5E5;
+}
+
+.perfil div {
+    flex: 1 1 200px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perfil h3 {
+    color: #999999;
+    font-size: 1.5rem;
+}
+
+.perfil span {
+    margin-top: -12px;
+    display: block;
+    color: #999999;
+    font-size: 1rem;
+}
+
+.perfil p {
+    color: #999999;
+    font-size: 1.25rem;
+}
+
+.repositorio {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    margin: 12px 0;
+    font-size: 2rem;
+    text-align: center;
+}
